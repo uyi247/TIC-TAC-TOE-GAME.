@@ -13,7 +13,7 @@ const winArrays = [
 const winnerDisplayInfo = document.querySelector("[winnerDisplayInfo]");
 const winnerMessageElement = document.getElementById("winnerMessage");
 const resetBtn = document.getElementById("resetBtn");
-const gridElements = document.querySelectorAll("[data-cell]");
+const gridElements = document.querySelectorAll("[grid-cell]");
 const board = document.getElementById("board");
 let circleTurn;
 
