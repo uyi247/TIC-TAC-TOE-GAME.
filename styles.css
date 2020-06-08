@@ -36,7 +36,7 @@ body {
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after {
   content: "";
-  width: calc(var(--mark-size) * 0.15);
+  width: calc(var(--mark-size) * 0.2);
   height: var(--mark-size);
   background-color: black;
   position: absolute;
